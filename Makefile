@@ -7,7 +7,6 @@ target: $(target)
 
 ##################################################################
 
-
 Sources = Makefile .gitignore README.md sub.mk LICENSE.md
 include sub.mk
 # include $(ms)/perl.def
@@ -18,6 +17,7 @@ include sub.mk
 
 ######################################################################
 
+-include $(ms)/webpix.mk ## makestuff/webpix.mk
 -include $(ms)/git.mk
 -include $(ms)/visual.mk
 
