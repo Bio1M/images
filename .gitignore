@@ -3,6 +3,10 @@ commit.default
 target.mk
 .*.sw*
 
+allsteps.mk
+files
+*.step.mk
+
 *.Rout.pdf
 *.html
 
