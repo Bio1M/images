@@ -8,12 +8,23 @@ target: $(target)
 ##################################################################
 
 Sources = Makefile .gitignore README.md sub.mk LICENSE.md
+Drop = ~/Dropbox
 include sub.mk
-# include $(ms)/perl.def
+include $(ms)/perl.def
+
+######################################################################
+
+## File drop
+
+Sources += local.jd
+jd:
+	cp local.jd local.mk
 
 ##################################################################
 
 ## Content
+
+intro.html: intro.step
 
 ######################################################################
 
