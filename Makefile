@@ -28,6 +28,11 @@ intro.html: intro.step
 
 ######################################################################
 
+## Special pictures
+## Still thinking about how to handle this. For now, maybe put stuff into Pearson??
+
+######################################################################
+
 -include $(ms)/webpix.mk ## makestuff/webpix.mk
 -include $(ms)/git.mk
 -include $(ms)/visual.mk
