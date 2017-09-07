@@ -26,6 +26,8 @@ jd:
 
 intro.html: intro.step
 
+ns.html: ns.step
+
 ######################################################################
 
 ## Special pictures
