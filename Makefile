@@ -14,8 +14,7 @@ include sub.mk
 
 ######################################################################
 
-## File drop
-
+## File drop location in local.mk
 Sources += local.jd
 jd:
 	cp local.jd local.mk
