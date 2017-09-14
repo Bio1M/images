@@ -27,6 +27,8 @@ intro.html: intro.step
 
 ns.html: ns.step
 
+processes.html: processes.step
+
 ######################################################################
 
 ## Special pictures
