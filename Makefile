@@ -36,6 +36,7 @@ processes.html: processes.step
 
 ######################################################################
 
+## Note webpix sometimes uses webthumbs
 -include $(ms)/webpix.mk ## makestuff/webpix.mk
 -include $(ms)/git.mk
 -include $(ms)/visual.mk
