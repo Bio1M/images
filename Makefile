@@ -29,9 +29,7 @@ ns.html: ns.step
 
 processes.html: processes.step
 
-phylogeny.html: phylogeny.step
-
-phylogeny.html: phylogeny.step
+apes.html: apes.step
 
 ######################################################################
 
