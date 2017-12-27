@@ -26,8 +26,7 @@ files
 
 local.mk
 
-testdir/
-.testdir/
-subclone_dir/
+clonedir/
+dotdir/
 
-*.makestuff
+webpix
